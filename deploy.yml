@@ -25,4 +25,4 @@ jobs:
         run: npm run build
 
       - name: Deploy to Vercel
-        run: npx vercel --token {{ O6Vk2VOCooYcLsUbp7u0C7iX }}
+        run: npx vercel --token ${{ H8m4x9pVfCRlB0iivMoT2uAT }}
