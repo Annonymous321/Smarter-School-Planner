@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="popup" id="popup">
+        <p>Choose an option:</p>
+        <button onclick="organizeBySemester()">Organize by Semester</button>
+        <button onclick="organizeByBlock()">Organize by Block</button>
+
+        <div id="customForm" style="display:none;">
+            <p>Add Custom Class:</p>
+            <input type="text" id="className" placeholder="Class Name">
+            <input type="number" id="semester" placeholder="Semester">
+            <input type="number" id="block" placeholder="Block">
+            <button onclick="addCustomClass()">Add Class</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
